@@ -22,3 +22,9 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+# List direcory contents
+export LS_OPTIONS='--color'
+alias l='ls $LS_OPTIONS'
+alias ll='ls $LS_OPTIONS -lh'
+alias lll='ls $LS_OPTIONS -alh'
+alias sl='ls $LS_OPTIONS' # often screw this up
